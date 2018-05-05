@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 	<section class="[ container ]">
-		<p>contenido1 prueba visual</p>
+		<p>contenido</p>
 	</section>
 <?php get_footer(); ?>
