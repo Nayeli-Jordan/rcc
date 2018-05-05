@@ -1,0 +1,35 @@
+footer {
+	width: 100%;
+    position: absolute !important;
+    bottom: 0;
+    text-align: center;
+    .col {
+    	border-top: 1px solid $gray-color;
+    	padding-top: 20px!important;
+    	padding-bottom: 20px!important;
+    }
+    .link {
+    	font-family: 'Open Sans', sans-serif;
+    	font-weight: 700;
+    	letter-spacing: 1px;
+    	text-transform: uppercase;
+    	font-size: 10px;    	
+    }
+    .block-redes {
+    	margin-bottom: 10px;
+    	a {
+    		-webkit-transition: all .5s ease;
+			-moz-transition: all .5s ease;
+			-o-transition: all .5s ease;
+			transition: all .5s ease;
+			background-color: $dark-color;
+			color: $light-color;
+			border-radius: 3px;
+			padding: 2px;
+			margin: 0 1px;
+    		&:hover {
+    			background-color: $primary-color;  			
+    		}
+    	}
+    }
+}
